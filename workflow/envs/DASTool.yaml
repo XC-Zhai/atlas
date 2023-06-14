@@ -1,7 +1,7 @@
 channels:
     - conda-forge
     - bioconda
-    - ruby-lang
+    #- ruby-lang #remove ruby to avoid conflict from public server
     - defaults
 dependencies:
     - das_tool=1.1.6
